@@ -1,3 +1,4 @@
 data/
+cleaned_data/
 *.pyc
 *.pkl
