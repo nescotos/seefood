@@ -2,3 +2,5 @@ data/
 cleaned_data/
 *.pyc
 *.pkl
+node_modules/
+platforms/
