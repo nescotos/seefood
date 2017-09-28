@@ -2,6 +2,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
+import { NativeScriptHttpModule } from "nativescript-angular/http";
 
 import { SeeFoodComponent } from './seefood/seefood.component';
 import { SeeFoodDetailComponent } from './seefood/seefod-detail.component';
@@ -18,7 +19,8 @@ import { SeeFoodDetailComponent } from './seefood/seefod-detail.component';
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        NativeScriptHttpModule
     ],
     declarations: [
         AppComponent,

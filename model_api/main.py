@@ -44,7 +44,7 @@ def predict():
         global graph
         with graph.as_default():
             prediction = model.predict_proba(input_image)
-            return jsonify(get_class_from_prediction(prediction))        
+            return jsonify(get_class_from_prediction(prediction))
     except Exception:
         print Exception
         return jsonify({'message': 'Check your request and try again'}), 400
